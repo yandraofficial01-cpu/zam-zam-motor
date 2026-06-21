@@ -1,0 +1,765 @@
+<!DOCTYPE html>Zam Zam Motor
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - Stok Mobil Bekas Jln Raya Padang - Bukik Tinggi Psr. Lubuk Alung | Partner OTO PADANG</title>
+  <meta name="description" content="Cek stok mobil bekas berkualitas Putra Oto Solok. Harga transparan, kondisi jujur. Partner resmi OTO PADANG.">
+
+  <link rel="preconnect" href="https://lh3.googleusercontent.com">
+  <link rel="preconnect" href="https://docs.google.com">
+  <link rel="dns-prefetch" href="https://i.imgur.com">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SQKTPMBX8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7SQKTPMBX8');
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap');
+
+    :root {
+      --bg: #0a0f1a; --bg-card: #141b2d; --text: #f1f5f9; --text-muted: #94a3b8;
+      --primary: #f1f5f9; --accent: #38bdf8; --border: #2d3748;
+      --green: #10b981; --red: #ef4444; --yellow: #fbbf24;
+      --gold1: #D4AF37; --gold2: #FFD700; --gold3: #FF8C00;
+      --wa-green: #25D366; --wa-dark: #128C7E;
+      --skeleton-base: #1e293b; --skeleton-highlight: #2d3748;
+    }
+    [data-theme="light"] {
+      --bg: #f8fafc; --bg-card: #ffffff; --text: #1e293b; --text-muted: #64748b;
+      --primary: #0f172a; --accent: #38bdf8; --border: #e2e8f0;
+      --green: #059669; --red: #dc2626; --yellow: #f59e0b;
+      --skeleton-base: #e5e7eb; --skeleton-highlight: #f3f4f6;
+    }
+
+    * {margin:0; padding:0; box-sizing:border-box; font-family:'Montserrat',sans-serif;}
+    
+    html {scroll-behavior:smooth; -webkit-overflow-scrolling: touch;}
+    body {
+      background:var(--bg); color:var(--text); line-height:1.6; overflow-x:hidden;
+      overscroll-behavior-y: contain; will-change: scroll-position;
+    }
+    
+    .is-scrolling * {animation-play-state: paused !important; transition: none !important;}
+    .is-scrolling .card:hover {transform: none !important;}
+    
+    .container {max-width:1200px; margin:auto; padding:20px;}
+
+    header {
+      text-align: center; padding: 30px 15px 60px; color: white; position: relative; overflow: hidden;
+      background: linear-gradient(180deg, rgba(15,23,42,0.7) 0%, rgba(30,41,59,0.85) 100%),
+                  url('https://i.imgur.com/bN7pc3q.jpeg') center/cover no-repeat;
+      transform: translateZ(0);
+    }
+    header::before {
+      content:''; position:absolute; inset:0;
+      backdrop-filter: blur(1px); background: rgba(0,0,0,0.2);
+    }
+    header::after {
+      content:''; position:absolute; top:0; left:-50%; width:200%; height:100%;
+      background:radial-gradient(circle at 50% 0%, rgba(212,175,55,0.2) 0%, transparent 60%);
+      animation:float 8s ease-in-out infinite; will-change: transform;
+    }
+    @keyframes float {0%,100%{transform:translateY(0) translateZ(0);} 50%{transform:translateY(-20px) translateZ(0);}}
+
+    .back-induk {
+      position: absolute; top: 15px; left: 15px; z-index: 20;
+      background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); color: white;
+      padding: 8px 14px; border-radius: 10px; text-decoration: none;
+      font-size: 0.85rem; font-weight: 600; border: 1px solid rgba(212,175,55,0.3);
+      transition: all 0.3s;
+    }
+    .back-induk:hover {
+      background: rgba(212,175,55,0.2); transform: translateX(-3px);
+      box-shadow: 0 4px 15px rgba(212,175,55,0.3);
+    }
+
+    .theme-toggle {
+      position:absolute; top:15px; right:15px;
+      background:rgba(255,255,255,0.1); backdrop-filter:blur(10px);
+      border:1px solid rgba(212,175,55,0.3); padding:10px 14px; border-radius:10px;
+      cursor:pointer; font-size:1.2rem; z-index:20; transition:all 0.3s;
+    }
+    .theme-toggle:hover {transform:scale(1.1) rotate(20deg); background:rgba(212,175,55,0.2);}
+
+    .header-top {display: flex; justify-content: center; align-items: center; gap: 20px; margin: 0 auto 20px; position:relative; z-index:10;}
+
+    .logo-showroom {
+      width: 115px; height: 115px; object-fit: cover; border-radius: 18px; background: white; padding: 5px;
+      border: 3px solid var(--gold1); box-shadow: 0 8px 24px #00000050, 0 0 25px rgba(212,175,55,0.5);
+      animation: fadeUp 0.8s ease-out backwards; transition: all 0.3s; will-change: transform;
+    }
+    .logo-showroom:hover {transform: scale(1.05) rotate(2deg) translateZ(0);}
+    .foto-owner {
+      width: 115px; height: 115px; object-fit: cover; border-radius: 18px; background: white; padding: 4px;
+      border: 3px solid var(--gold1); box-shadow: 0 8px 24px #00000050, 0 0 25px rgba(212,175,55,0.5);
+      animation: fadeUp 0.8s ease-out 0.2s backwards; transition: all 0.3s; will-change: transform;
+    }
+    .foto-owner:hover {transform: scale(1.05) rotate(-2deg) translateZ(0);}
+    .owner-wrapper {position: relative; display: inline-block;}
+    .verified-badge {
+      position: absolute; bottom: -5px; right: -5px; width: 28px; height: 28px;
+      background: linear-gradient(135deg, #1d9bf0, #0c7cd5); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      border: 3px solid white; box-shadow: 0 2px 8px #00040;
+      animation: fadeUp 0.8s ease-out 0.4s backwards; z-index: 2;
+    }
+    .verified-badge svg {width: 16px; height: 16px; fill: white;}
+    .ceo-label {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(180deg, transparent 0%, #000000ee 100%);
+      color: var(--gold1); font-weight: 800; font-size: 0.7rem; padding: 26px 4px 8px;
+      text-align: center; border-radius: 0 0 14px 14px; text-shadow: 0 1px 3px #00000080; letter-spacing: 0.5px;
+    }
+    .ceo-name {
+      display: block; font-size: 0.65rem; color: #fff; font-weight: 600; 
+      margin-top: 1px; letter-spacing: 0.3px; text-shadow: 0 1px 2px #000;
+    }
+
+    .badge {
+      display:block;
+      width:fit-content;
+      margin: 0 auto 15px;
+      background:linear-gradient(90deg, var(--gold1), var(--gold2));
+      color:#000; padding:10px 22px; border-radius:25px; font-weight:800; font-size:0.85rem;
+      animation:fadeUp 0.8s ease-out 0.1s backwards;
+      box-shadow:0 4px 20px rgba(212,175,55,0.5); position:relative; z-index:10;
+    }
+
+    h1 {
+      font-size:2.5rem; font-family:'Playfair Display', serif; font-weight:900;
+      color: #FFD700 !important;
+      -webkit-text-fill-color: #FFD700 !important;
+      background: none !important;
+      animation: fadeUp 0.8s ease-out 0.2s backwards;
+      margin-bottom:12px; position:relative; z-index:10;
+      text-shadow: 
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px 0 #000,
+         0 0 8px rgba(255,215,0,0.6);
+      text-rendering: geometricPrecision;
+      -webkit-font-smoothing: auto;
+      -moz-osx-font-smoothing: auto;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size:1.6rem; color:var(--primary); margin:40px 0 25px;
+      border-left:4px solid var(--gold1); padding-left:15px; font-weight:700;
+    }
+
+    .subtitle {
+      font-size:1.1rem; color:#e2e8f0; max-width:600px; margin:0 auto;
+      text-shadow:0 2px 4px #00000080; animation:fadeUp 0.8s ease-out 0.3s backwards;
+      position:relative; z-index:10;
+    }
+
+    .search-box {margin:35px auto; max-width:600px; position:relative; animation:fadeUp 0.8s ease-out 0.4s backwards;}
+    .search-box input {
+      width:100%; padding:16px 50px 16px 20px; border-radius:14px;
+      border:2px solid rgba(212,175,55,0.2);
+      background:rgba(255,255,255,0.05); backdrop-filter:blur(10px);
+      color:var(--text); font-size:1rem; transition:all 0.3s; font-weight:500;
+    }
+    [data-theme="light"] .search-box input {background:#ffffff;}
+    .search-box input:focus {
+      outline:none; border-color:var(--gold1);
+      box-shadow:0 0 0 4px rgba(212,175,55,0.1), 0 8px 20px rgba(212,175,55,0.2);
+      transform:scale(1.02);
+    }
+    .search-icon {position:absolute; right:18px; top:50%; transform:translateY(-50%); color:var(--gold1); font-size:1.3rem; pointer-events:none;}
+
+    .grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:28px;}
+
+    .card {
+      background:var(--bg-card); backdrop-filter: blur(15px);
+      border-radius:20px; overflow:hidden; 
+      box-shadow:0 8px 32px rgba(0,0,0,0.3); 
+      border:1px solid rgba(212,175,55,0.2); 
+      transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+      animation:fadeUp 0.6s ease-out backwards;
+      content-visibility: auto; contain-intrinsic-size: 500px;
+      will-change: transform; backface-visibility: hidden; transform: translateZ(0);
+    }
+    [data-theme="light"] .card {
+      backdrop-filter: none; box-shadow:0 4px 20px rgba(0,0,0,0.06); border:1px solid #e2e8f0;
+    }
+    .card:hover {
+      transform:translateY(-10px) translateZ(0); 
+      border:1px solid var(--gold1);
+      box-shadow:0 20px 50px rgba(0,0,0,0.5), 0 0 40px rgba(212,175,55,0.3);
+    }
+    [data-theme="light"] .card:hover {
+      box-shadow:0 12px 30px rgba(0,0,0,0.1), 0 0 30px rgba(212,175,55,0.15);
+    }
+    .mobil-card {position:relative;}
+
+    .mobil-card.hot-item {
+     position: relative;
+     border: 2px solid transparent;
+     background: linear-gradient(var(--bg-card), var(--bg-card)) padding-box,
+                 linear-gradient(45deg, var(--gold1), var(--gold2), var(--gold3), var(--gold1)) border-box;
+     background-size: 100% 100%, 400% 400%;
+     animation: goldGlow 3s ease infinite;
+    }
+    @keyframes goldGlow {
+     0%,100% { background-position: 0% 0%, 0% 50%; }
+     50% { background-position: 0% 0%, 100% 50%; }
+    }
+    .mobil-card.hot-item .galeri {border-radius: 18px 18px 0 0; overflow: hidden;}
+
+    .galeri {position:relative; background:var(--bg); min-height:240px; overflow:hidden; cursor:grab; user-select:none; touch-action:pan-y;}
+    .galeri:active {cursor:grabbing;}
+    .galeri-inner {display:flex; transition:transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); height:240px; will-change: transform;}
+    .galeri-inner img {width:100%; height:240px; object-fit:cover; background:var(--border); flex-shrink:0; cursor:zoom-in; pointer-events:auto;}
+    .img-fallback {width:100%; height:240px; background:linear-gradient(90deg, var(--border) 25%, var(--bg) 50%, var(--border) 75%); background-size:200% 100%; animation:shimmer 1.5s infinite; display:flex; align-items:center; justify-content:center; flex-direction:column; color:var(--text-muted); gap:8px; flex-shrink:0;}
+    @keyframes shimmer {0%{background-position:200% 0;} 100%{background-position:-200% 0;}}
+    .nav-btn {
+      position:absolute; top:110px; background:rgba(0,0,0,0.6); backdrop-filter:blur(10px);
+      color:var(--gold1); border:1px solid rgba(212,175,55,0.3); padding:10px 16px; border-radius:50%;
+      cursor:pointer; font-size:1.2rem; z-index:5; transition:all 0.3s; opacity:0;
+    }
+    .galeri:hover .nav-btn {opacity:1;}
+    .nav-btn:hover {background:rgba(212,175,55,0.2); transform:scale(1.15); border-color:var(--gold1);}
+    .prev {left:12px;}
+    .next {right:12px;}
+    .dots {text-align:center; position:absolute; bottom:15px; width:100%; z-index:5;}
+    .dot {height:8px; width:8px; margin:0 3px; background-color:#ffffff60; border-radius:50%; display:inline-block; transition:all 0.3s; cursor:pointer;}
+    [data-theme="light"] .dot {background-color:#00000030;}
+    .dot.active {background-color:var(--gold1); width:28px; border-radius:4px; box-shadow:0 0 10px var(--gold1);}
+
+    .badge.hot-premium {
+      position: absolute; top: 14px; left: 14px;
+      background: linear-gradient(135deg, var(--gold1), var(--gold3)); color: #000;
+      padding: 9px 16px; border-radius: 12px; font-size: 13px; font-weight: 800; z-index: 6;
+      box-shadow: 0 4px 20px rgba(212,175,55,.7); border: 2px solid rgba(255,255,255,.4);
+      text-shadow: 0 1px 2px rgba(0,0,0,.2); animation: badgePulse 2s infinite;
+    }
+    @keyframes badgePulse {0%,100% { transform: scale(1); } 50% { transform: scale(1.05); }}
+    .content {padding:22px;}
+    .harga {
+      font-size:1.9rem;
+      background: linear-gradient(90deg, var(--gold1), var(--gold2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      font-weight:800; margin:5px 0 18px; transition:all 0.3s;
+    }
+    .card:hover .harga {transform:scale(1.05);}
+    .merk {font-size:1.35rem; font-weight:700; color:var(--primary);}
+
+    .spec-grid {display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:18px 0;}
+    .spec {
+      background:rgba(255,255,255,0.04); 
+      padding:12px; border-radius:10px; font-size:0.9rem; 
+      border:1px solid rgba(255,255,255,0.1); transition:all 0.3s;
+    }
+    [data-theme="light"] .spec {
+      background:#f8fafc; border:1px solid #e2e8f0;
+    }
+    .spec:hover {
+      background:rgba(212,175,55,0.08); transform:translateY(-3px);
+      border:1px solid rgba(212,175,55,0.3);
+    }
+    [data-theme="light"] .spec:hover {
+      background:rgba(212,175,55,0.1); border:1px solid rgba(212,175,55,0.4);
+    }
+    .spec span {display:block; color:var(--text-muted); font-size:0.8rem; margin-bottom:2px;}
+    .spec b {color:var(--text); font-weight:600;}
+
+    .kondisi {margin:18px 0; font-size:0.9rem;}
+    .plus {color:var(--green);}
+    .minus {color:var(--red); margin-top:8px;}
+
+    .btn-group {display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:22px;}
+    .wa-btn {
+      background:linear-gradient(135deg, var(--wa-green), var(--wa-dark));
+      color:#fff; padding:15px; border-radius:12px; text-decoration:none;
+      font-weight:700; text-align:center; transition:all 0.3s; position:relative; overflow:hidden;
+      box-shadow:0 4px 15px rgba(37,211,102,0.4);
+    }
+    .wa-btn::before {content:''; position:absolute; top:50%; left:50%; width:0; height:0; border-radius:50%; background:rgba(255,255,255,0.3); transform:translate(-50%, -50%); transition:width 0.6s, height 0.6s;}
+    .wa-btn:hover::before {width:300px; height:300px;}
+    .wa-btn:hover {transform:translateY(-3px); box-shadow:0 8px 25px rgba(37,211,102,0.6);}
+    .share-btn {
+      background:var(--bg-card); color:var(--text); padding:15px; border-radius:12px;
+      text-decoration:none; font-weight:700; text-align:center; border:1px solid var(--border);
+      cursor:pointer; transition:all 0.3s;
+    }
+    .share-btn:hover {
+      transform:translateY(-3px); box-shadow:0 8px 20px rgba(0,0,0,0.3);
+      border-color:var(--gold1); color:var(--gold1);
+    }
+    .loading {text-align:center; padding:50px; font-size:1.1rem; color:var(--text-muted); grid-column:1/-1;}
+    .no-result {text-align:center; padding:50px; color:var(--text-muted); grid-column:1/-1;}
+
+    .skeleton {
+      background: linear-gradient(90deg, var(--skeleton-base) 25%, var(--skeleton-highlight) 50%, var(--skeleton-base) 75%);
+      background-size: 200% 100%;
+      animation: skeletonShimmer 1.5s infinite;
+      border-radius: 8px;
+    }
+    @keyframes skeletonShimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    .skeleton-card {
+      background:var(--bg-card);
+      backdrop-filter: blur(15px);
+      border-radius:20px; overflow:hidden;
+      border:1px solid rgba(212,175,55,0.2);
+    }
+    [data-theme="light"] .skeleton-card {backdrop-filter: none;}
+    .skeleton-img {width:100%; height:240px;}
+    .skeleton-content {padding:22px;}
+    .skeleton-text {height:20px; margin-bottom:12px;}
+    .skeleton-text.sm {height:16px; width:60%;}
+    .skeleton-text.lg {height:28px; width:80%;}
+    .skeleton-spec {height:60px; border-radius:10px;}
+
+    footer {
+      text-align:center; padding:45px 20px; color:var(--text-muted); font-size:0.9rem;
+      background:var(--bg-card); border-top:1px solid rgba(212,175,55,0.2); margin-top:50px;
+    }
+    footer a {color:var(--gold1); font-weight:700; text-decoration:none;}
+    footer a:hover {text-decoration:underline; color:var(--gold2);}
+
+    .wa-float {
+      position:fixed; bottom:16px; right:16px; z-index:100;
+      background:linear-gradient(135deg, var(--wa-green), var(--wa-dark));
+      color:#fff; border-radius:50px; text-decoration:none;
+      display:flex; align-items:center; gap:8px; padding:10px 16px;
+      box-shadow:0 6px 20px rgba(37,211,102,0.5); transition:all 0.3s;
+      animation:floatWA 3s ease-in-out infinite;
+      border:2px solid rgba(255,255,255,0.3); font-weight:700;
+      transform: scale(0.9) translateZ(0);
+      font-size: 0.85rem;
+      will-change: transform;
+    }
+    .wa-float:hover {transform:scale(0.95) translateY(-3px) translateZ(0); box-shadow:0 10px 30px rgba(37,211,102,0.7);}
+    .wa-float-icon {width:22px; height:22px; fill:#fff;}
+    .wa-float-text {display:flex; flex-direction:column; line-height:1.2;}
+    .wa-float-text b {font-size:0.85rem;}
+    .wa-float-text span {font-size:0.65rem; opacity:0.9;}
+    @keyframes floatWA {0%,100%{transform:translateY(0) scale(0.9) translateZ(0);} 50%{transform:translateY(-6px) scale(0.9) translateZ(0);}}
+    @keyframes fadeUp {from{opacity:0; transform:translateY(30px);} to{opacity:1; transform:translateY(0);}}
+
+    .zoom-modal {display:none; position:fixed; z-index:999; left:0; top:0; width:100%; height:100%; background:#000000f0; align-items:center; justify-content:center; touch-action:none; animation:fadeIn 0.3s;}
+    @keyframes fadeIn {from{opacity:0;} to{opacity:1;}}
+    .zoom-modal.active {display:flex;}
+    .zoom-content {max-width:95%; max-height:95%; object-fit:contain; cursor:grab; transition:transform 0.1s;}
+    .zoom-content:active {cursor:grabbing;}
+    .zoom-close {
+      position:absolute; top:20px; right:30px; color:var(--gold1); font-size:45px;
+      font-weight:bold; cursor:pointer; z-index:1000; transition:all 0.3s;
+      text-shadow:0 0 10px rgba(212,175,55,0.8);
+    }
+    .zoom-close:hover {transform:rotate(90deg) scale(1.2); color:var(--gold2);}
+    .zoom-info {
+      position:absolute; bottom:20px; left:50%; transform:translateX(-50%);
+      color:white; background:rgba(0,0,0,0.8); padding:10px 20px; border-radius:25px;
+      font-size:0.9rem; border:1px solid rgba(212,175,55,0.3);
+    }
+
+    @media(max-width:600px){
+      h1{font-size:2rem;}.grid{grid-template-columns:1fr;}.theme-toggle{top:10px;right:10px;}.nav-btn{display:none;}
+      .back-induk { top: 10px; left: 10px; padding: 6px 10px; font-size: 0.75rem; }
+      .logo-showroom{width:95px;height:95px;}
+      .foto-owner{width:95px;height:95px;}
+      .header-top{max-width:300px; gap:15px;}
+      .verified-badge { width: 24px; height: 24px; bottom: -3px; right: -3px; }
+      .verified-badge svg { width: 14px; height: 14px; }
+      .ceo-label { font-size: 0.6rem; padding: 20px 3px 6px; }
+      .ceo-name { font-size: 0.55rem; }
+      .wa-float {bottom: 70px; right:12px; padding:8px 14px;}
+      .wa-float-text span {display:none;}
+      .card {box-shadow: 0 2px 8px rgba(0,0,0,0.08);}
+      .card:hover {box-shadow: 0 4px 12px rgba(0,0,0,0.12);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://otopadang.com" class="back-induk">← OTO PADANG</a>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+    <div class="container">
+      <div class="header-top">
+        <div><img id="logoShowroom" src="" alt="Logo Putra Oto Solok" class="logo-showroom"></div>
+        <div class="owner-wrapper">
+          <img id="fotoOwner" src="" alt="CEO Putra Oto Solok" class="foto-owner">
+          <div class="ceo-label">
+            <span class="ceo-name" id="namaCEO">SARI WAHYUNI</span>
+            <span class="ceo-verified">CEO VERIFIED</span>
+          </div>
+          <div class="verified-badge">
+            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+          </div>
+          
+        </div>
+        </div>
+      <p class="badge">PARTNER RESMI OTO PADANG</p>
+      <h1>Zam Zam Motor</h1>
+      <p class="subtitle">Spesialis mobil bekas berkualitas di Pasar Lubuk Alung. Harga jujur, kondisi apa adanya, siap pakai.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+     <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Cari: Avanza, Pajero, Matic, 2020..." oninput="debounceSearch()">
+      <span class="search-icon">🔍</span>
+    </div>
+    <section id="stok">
+      <h2>Stok Mobil Zam Zam Motor</h2>
+      <div id="daftar-mobil" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Zam Zam Motor. Partner Resmi <a href="https://otopadang.com" target="_blank">OTO PADANG</a></p>
+    <p style="margin-top:10px;">Alamat: Jl. By Pass. Padang | WA: +62 81365574178-6838-1500</p>
+  </footer>
+
+  <a id="waFloat" href="#" class="wa-float" target="_blank">
+    <svg class="wa-float-icon" viewBox="0 0 24 24"><path d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.2.3-.4.1-.1.1-.2.2-.3.1-.1.1-.2.2-.3.1-.2 0-.4-.1-.5-.1-.6-.6-1-.8-.4-.2-.8-.2-1.1-.2-.3 0-.6 0-.9.1-.3.1-.9.4-1.2.9-.3.5-.3 1.1-.1 1.6.2.5.6 1.1 1.3 1.8 1.1 2.5 2 4.2 2.5 1.7.5 2.9.4 3.9.1 1-.3 1.9-1.3 2.1-2.1.2-.8.2-1.5.1-1.6-.1-.2-.4-.3-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 2 0 3.8 1.3 5.3L2 22l4.9-1.3c1.5.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+    <div class="wa-float-text">
+      <b>Chat Sales</b>
+      <span>Tanya Stok</span>
+    </div>
+  </a>
+
+  <div class="zoom-modal" id="zoomModal">
+    <span class="zoom-close" onclick="closeZoom()">&times;</span>
+    <img class="zoom-content" id="zoomImg" src="">
+    <div class="zoom-info">Pinch untuk zoom • Tap & drag untuk geser</div>
+  </div>
+  <script>
+const CONFIG = {
+  NAMA_SHOWROOM: 'Zam Zam Motor',
+  NAMA_CEO: 'SARI WAHYUNI',
+  NO_WA_SHOWROOM: '628136557417868381500',
+  SHEET_INDUK_ID: '1YpsM_hGM3RlzMVG7x-dIVe6BCA9STCfo5RlYX7mt7Rg',
+  GID_SHOWROOM: '1022893642',
+  API_KEY: 'AIzaSyAzyYanUxJt2KgT17T10un3aQsBx4HPTws',
+  LOGO_URL: 'https://i.imgur.com/nrjur2S.jpeg',
+  FOTO_SHOWROOM_URL: 'https://i.imgur.com/M87r0iV.jpeg',
+  FOTO_OWNER_URL: 'https://i.imgur.com/uj7PFH4.jpeg',
+  WEB_INDUK: 'https://otopadang.com',
+  SLUG_SHOWROOM: 'oto-rancak'
+}
+
+const SLUG_SHOWROOM_INI = CONFIG.SLUG_SHOWROOM;
+const API_URL = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_INDUK_ID}/gviz/tq?tqx=out:json&gid=${CONFIG.GID_SHOWROOM}`
+let allMobil = []
+
+document.getElementById('logoShowroom').src = CONFIG.LOGO_URL;
+document.getElementById('fotoOwner').src = CONFIG.FOTO_OWNER_URL;
+document.getElementById('namaCEO').textContent = CONFIG.NAMA_CEO;
+
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme')
+  const newTheme = current === 'light'? 'dark' : 'light'
+  document.documentElement.setAttribute('data-theme', newTheme)
+  localStorage.setItem('theme', newTheme)
+  document.querySelector('.theme-toggle').textContent = newTheme === 'dark'? '☀️' : '🌙'
+}
+
+const savedTheme = localStorage.getItem('theme') || 'dark'
+document.documentElement.setAttribute('data-theme', savedTheme)
+document.querySelector('.theme-toggle').textContent = savedTheme === 'dark'? '☀️' : '🌙'
+
+const safeString = val => String(val || '').trim().replace(/[\r\n]/g,'')
+const isAktif = status => safeString(status).toLowerCase() === 'aktif'
+
+function setWaFloat(){
+  const waBtn = document.getElementById('waFloat')
+  const text = `Halo ${CONFIG.NAMA_SHOWROOM}, mau tanya stok mobil dong`
+  waBtn.href = `https://wa.me/${CONFIG.NO_WA_SHOWROOM}?text=${encodeURIComponent(text)}`
+
+  waBtn.addEventListener('click', function() {
+    gtag('event', 'klik_wa', {
+      'mobil': 'WA Float Button',
+      'harga': 0,
+      'tahun': 0,
+      'showroom': CONFIG.NAMA_SHOWROOM,
+      'sumber_web': SLUG_SHOWROOM_INI,
+      'tipe_klik': 'float'
+    });
+  });
+}
+
+let searchTimeout;
+function debounceSearch() {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    filterMobil();
+  }, 300);
+}
+
+function filterMobil(){
+  const keyword = document.getElementById('searchInput').value.toLowerCase()
+  const hasil = allMobil.filter(mobil => {
+    const text = (mobil.merk+' '+mobil.tipe+' '+mobil.tahun+' '+mobil.transmisi+' '+mobil.warna+' '+mobil.bahan_bakar+' '+mobil.nopol).toLowerCase()
+    return text.includes(keyword)
+  })
+  renderMobil(hasil)
+}
+
+let isScrolling;
+window.addEventListener('scroll', () => {
+  document.body.classList.add('is-scrolling');
+  clearTimeout(isScrolling);
+  isScrolling = setTimeout(() => {
+    document.body.classList.remove('is-scrolling');
+  }, 150);
+}, {passive: true});
+
+function showSkeleton(){
+  const container = document.getElementById('daftar-mobil')
+  const skeletonHTML = Array(6).fill(0).map(() => `
+    <div class="skeleton-card">
+      <div class="skeleton skeleton-img"></div>
+      <div class="skeleton-content">
+        <div class="skeleton skeleton-text lg"></div>
+        <div class="skeleton skeleton-text"></div>
+        <div class="spec-grid" style="margin:18px 0;">
+          <div class="skeleton skeleton-spec"></div>
+          <div class="skeleton skeleton-spec"></div>
+          <div class="skeleton skeleton-spec"></div>
+          <div class="skeleton skeleton-spec"></div>
+        </div>
+        <div class="skeleton skeleton-text sm"></div>
+        <div class="btn-group" style="margin-top:22px;">
+          <div class="skeleton" style="height:48px; border-radius:12px;"></div>
+          <div class="skeleton" style="height:48px; border-radius:12px;"></div>
+        </div>
+      </div>
+    </div>
+  `).join('')
+  container.innerHTML = skeletonHTML
+}
+
+async function loadMobil(){
+  showSkeleton()
+  try {
+    const res = await fetch(API_URL)
+    if(!res.ok) throw new Error('Fetch failed: ' + res.status)
+    const text = await res.text()
+    const json = JSON.parse(text.substr(47).slice(0, -2))
+
+    const headers = json.table.cols.map(c => c.label? c.label.toLowerCase().replace(/ /g,'_').replace(/\./g,'').trim() : '')
+    const rows = json.table.rows
+    const cleanData = rows.map(r => {
+      let obj = {}
+      headers.forEach((h,i) => {
+        if(h) obj[h] = r.c[i] && r.c[i].v!= null? r.c[i].v.toString().trim() : ''
+      })
+      return obj
+    })
+
+    allMobil = cleanData
+.filter(m => {
+        const slugBenar = safeString(m.slug_showroom).toLowerCase() === SLUG_SHOWROOM_INI.toLowerCase();
+        const statusBenar = isAktif(m.status_anak);
+        return slugBenar && statusBenar;
+      })
+.sort((a, b) => {
+  const aHot = safeString(a.tag).toLowerCase() === 'hot';
+  const bHot = safeString(b.tag).toLowerCase() === 'hot';
+  if (aHot && !bHot) return -1;
+  if (!aHot && bHot) return 1;
+  return 0;
+})
+.slice(0, 40)
+
+    renderMobil(allMobil)
+  } catch(err) {
+    console.error(err)
+    document.getElementById('daftar-mobil').innerHTML = `<div class="card"><p style="padding:20px;">⚠️ Gagal load data.<br>1. Cek Sheet udah "File → Share → Publish to web"<br>2. Cek kolom D slug_showroom = ${SLUG_SHOWROOM_INI}<br>3. Cek kolom Z status_anak = AKTIF</p></div>`
+  }
+}
+
+function renderMobil(dataMobil){
+  const container = document.getElementById('daftar-mobil')
+  if(dataMobil.length === 0){
+    container.innerHTML = `<div class="no-result">Belum ada mobil AKTIF untuk showroom ini.<br>Cek kolom D = ${SLUG_SHOWROOM_INI}, kolom Z = AKTIF di Sheet.</div>`
+    return
+  }
+  
+  container.innerHTML = dataMobil.map((mobil, i) => {
+    const fotos = [mobil.foto_1, mobil.foto_2, mobil.foto_3, mobil.foto_4, mobil.foto_5, mobil.foto_6].filter(f => safeString(f)!== '' &&!f.includes('GANTI_LINK'))
+    const merk = mobil.merk || ''
+    const tipe = mobil.tipe || ''
+    const tahun = mobil.tahun || ''
+    const namaMobil = (safeString(merk+' '+tipe).replace(tahun,'').trim() + ' ' + tahun).trim()
+    const noWa = mobil.no_wa_sales || CONFIG.NO_WA_SHOWROOM
+    const harga = mobil.harga_cash || 0
+    const nopol = mobil.nopol || '-'
+    const textWa = `Halo ${CONFIG.NAMA_SHOWROOM}, mau tanya ${namaMobil} nopol ${nopol} harga Rp ${Number(harga).toLocaleString('id-ID')}. Masih ada?`
+    const textShare = `Bro, cek mobil ini: ${namaMobil} harga Rp ${Number(harga).toLocaleString('id-ID')}. Menurut lu gimana? ${window.location.href}`
+    const km = mobil.km || '-'
+    const warna = mobil.warna || '-'
+    const transmisi = mobil.transmisi || '-'
+    const deskripsi = mobil.deskripsi || '-'
+
+    const isHot = safeString(mobil.tag).toLowerCase() === 'hot';
+    const hotClass = isHot? 'hot-item' : '';
+    const badgeHotPremium = isHot? `<div class="badge hot-premium">👑 HOT DEAL</div>` : '';
+
+    let galeri = ''
+    if(fotos.length === 0){
+      galeri = `<div class="img-fallback"><span style="font-size:3rem;">📷</span><span>FOTO SEGERA UPLOAD</span></div>`
+    } else {
+      const imgList = fotos.map((foto, idx) => `<img src="${foto}" alt="${namaMobil}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onclick="openZoom('${foto}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="img-fallback" style="display:none;"><span style="font-size:2rem;">⚠️</span><span>FOTO ${idx+1} GAGAL LOAD</span></div>`).join('')
+      const dots = fotos.map((_, idx) => `<span class="dot ${idx===0?'active':''}" onclick="goToSlide(this, ${idx})"></span>`).join('')
+      galeri = `<div class="galeri-inner">${imgList}</div>${fotos.length > 1? `<button onclick="gantiFoto(this.parentElement, -1)" class="nav-btn prev">‹</button><button onclick="gantiFoto(this.parentElement, 1)" class="nav-btn next">›</button><div class="dots">${dots}</div>` : ''}`
+    }
+    return `
+    <div class="card mobil-card ${hotClass}" style="animation-delay:${i*0.1}s">
+      <div class="galeri" data-current="0" data-total="${fotos.length}">
+        ${badgeHotPremium}
+        ${galeri}
+      </div>
+      <div class="content">
+        <p class="merk">${namaMobil}</p>
+        <p class="harga">Rp ${Number(harga).toLocaleString('id-ID')}</p>
+        <div class="spec-grid">
+          <div class="spec"><span>Kilometer</span><b>${km} KM</b></div>
+          <div class="spec"><span>Nopol</span><b>${nopol}</b></div>
+          <div class="spec"><span>Transmisi</span><b>${transmisi}</b></div>
+          <div class="spec"><span>Warna</span><b>${warna}</b></div>
+        </div>
+        <div class="kondisi">
+          <p class="plus"><b>Deskripsi:</b> ${deskripsi}</p>
+        </div>
+        <div class="btn-group">
+          <a href="https://wa.me/${noWa}?text=${encodeURIComponent(textWa)}" class="wa-btn" onclick="gtag('event', 'klik_wa', {'mobil': '${namaMobil.replace(/'/g, "\\'")}', 'harga': ${Number(harga) || 0}, 'tahun': ${Number(tahun) || 0}, 'showroom': '${CONFIG.NAMA_SHOWROOM}', 'sumber_web': '${SLUG_SHOWROOM_INI}', 'tipe_klik': 'card'})">Tanya Sales</a>
+          <button onclick="shareMobil('${encodeURIComponent(textShare)}')" class="share-btn">Share ke Teman</button>
+        </div>
+      </div>
+    </div>`
+  }).join('')
+  setTimeout(initSwipe, 100)
+}
+
+function gantiFoto(galeri, arah){
+  const inner = galeri.querySelector('.galeri-inner')
+  const dots = galeri.querySelectorAll('.dot')
+  let current = parseInt(galeri.dataset.current)
+  const total = parseInt(galeri.dataset.total)
+  current = (current + arah + total) % total
+  inner.style.transform = `translateX(-${current * 100}%)`
+  dots.forEach((dot, i) => dot.classList.toggle('active', i === current))
+  galeri.dataset.current = current
+}
+
+function goToSlide(el, idx){
+  const galeri = el.closest('.galeri')
+  const inner = galeri.querySelector('.galeri-inner')
+  const dots = galeri.querySelectorAll('.dot')
+  inner.style.transform = `translateX(-${idx * 100}%)`
+  dots.forEach((dot, i) => dot.classList.toggle('active', i === idx))
+  galeri.dataset.current = idx
+}
+
+function initSwipe(){
+  document.querySelectorAll('.galeri').forEach(galeri => {
+    let startX = 0, isDragging = false
+    const inner = galeri.querySelector('.galeri-inner')
+    if(!inner) return
+    galeri.addEventListener('touchstart', e => {
+      startX = e.targetTouches[0].clientX
+      isDragging = true
+      inner.style.transition = 'none'
+    }, {passive:true})
+    galeri.addEventListener('touchmove', e => {
+      if(!isDragging) return
+      const diff = e.targetTouches[0].clientX - startX
+      const current = parseInt(galeri.dataset.current)
+      inner.style.transform = `translateX(calc(-${current*100}% + ${diff}px))`
+    }, {passive:true})
+    galeri.addEventListener('touchend', e => {
+      if(!isDragging) return
+      isDragging = false
+      inner.style.transition = 'transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+      const endX = e.changedTouches[0].clientX
+      const diff = startX - endX
+      const threshold = 50
+      if(Math.abs(diff) > threshold){
+        if(diff > 0) gantiFoto(galeri, 1)
+        else gantiFoto(galeri, -1)
+      } else {
+        const current = parseInt(galeri.dataset.current)
+        inner.style.transform = `translateX(-${current * 100}%)`
+      }
+    })
+  })
+}
+
+function shareMobil(text){
+  const decoded = decodeURIComponent(text)
+  navigator.share? navigator.share({title:CONFIG.NAMA_SHOWROOM, text:decoded, url:window.location.href}) : window.open('https://wa.me/?text='+text, '_blank')
+}
+
+function openZoom(url){
+  const modal = document.getElementById('zoomModal')
+  const img = document.getElementById('zoomImg')
+  img.src = url
+  modal.classList.add('active')
+  resetZoom()
+}
+
+function closeZoom(){
+  document.getElementById('zoomModal').classList.remove('active')
+}
+
+function resetZoom(){ scale=1, pointX=0, pointY=0, setTransform() }
+function setTransform(){
+  const img = document.getElementById('zoomImg')
+  img.style.transform = `translate(${pointX}px, ${pointY}px) scale(${scale})`
+}
+
+let scale=1, panning=false, pointX=0, pointY=0, start={x:0,y:0}
+const zoomImg = document.getElementById('zoomImg')
+const modal = document.getElementById('zoomModal')
+
+zoomImg.addEventListener('wheel', e => {
+  e.preventDefault()
+  const xs = (e.clientX - pointX) / scale
+  const ys = (e.clientY - pointY) / scale
+  scale += e.deltaY * -0.001
+  scale = Math.min(Math.max(1, scale), 5)
+  pointX = e.clientX - xs * scale
+  pointY = e.clientY - ys * scale
+  setTransform()
+})
+
+zoomImg.addEventListener('mousedown', e => {
+  e.preventDefault()
+  start = {x: e.clientX - pointX, y: e.clientY - pointY}
+  panning = true
+})
+
+zoomImg.addEventListener('mouseup', () => panning = false)
+zoomImg.addEventListener('mouseleave', () => panning = false)
+zoomImg.addEventListener('mousemove', e => {
+  if(!panning) return
+  pointX = e.clientX - start.x
+  pointY = e.clientY - start.y
+  setTransform()
+})
+
+modal.addEventListener('click', e => {
+  if(e.target === modal) closeZoom()
+})
+
+setWaFloat()
+loadMobil()
+setInterval(loadMobil, 300000)
+</script>
+</body>
+</html>
